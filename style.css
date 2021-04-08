@@ -1,0 +1,29 @@
+
+#bg-game{
+
+    float: left;
+    width: auto;
+    height: 500px;
+    background-color: #fff;
+    border: black solid 1px;
+}
+
+.con-td{
+    width: 80px;
+    height: 75px;
+    background: url(./imagens/cronometro.png) no-repeat;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+}
+
+.img-cenario{
+    float: left;
+    width: 600px;
+    height: 500px;
+    background: url(./imagens/cenario.png);
+    background-position: bottom;
+    padding: 0;
+    margin: 0;
+}
