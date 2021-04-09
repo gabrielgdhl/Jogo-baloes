@@ -66,6 +66,7 @@ function make_baloes(qtdd_baloes){
 
 function estourar(baloes){
     var id_baloes = baloes.id;
+    document.getElementById(id_baloes).setAttribute("onclick", "");
     document.getElementById(id_baloes).src='imagens/balao_azul_pequeno_Estourado.png';
 
     pontuacao(-1);
@@ -89,7 +90,6 @@ function pontuacao(action){
 function verificaPontuacao(baloes_inteiros){
 
     if(baloes_inteiros == 0){
-        clearInterval(timeId);
         alert("Parabéns, você venceu!!");
         reiniciarJogo();
 
